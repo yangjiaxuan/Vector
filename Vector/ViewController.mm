@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "VectorTest.hpp"
 
 @interface ViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    VectorTest vector = VectorTest();
+    vector.text_01();
 }
 
 

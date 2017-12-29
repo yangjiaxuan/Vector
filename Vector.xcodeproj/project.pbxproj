@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		45EED7391FF67BF0002AE6A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EED7381FF67BF0002AE6A4 /* AppDelegate.m */; };
-		45EED73C1FF67BF0002AE6A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EED73B1FF67BF0002AE6A4 /* ViewController.m */; };
+		45EED73C1FF67BF0002AE6A4 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 45EED73B1FF67BF0002AE6A4 /* ViewController.mm */; };
 		45EED73F1FF67BF0002AE6A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45EED73D1FF67BF0002AE6A4 /* Main.storyboard */; };
 		45EED7411FF67BF0002AE6A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45EED7401FF67BF0002AE6A4 /* Assets.xcassets */; };
 		45EED7441FF67BF0002AE6A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45EED7421FF67BF0002AE6A4 /* LaunchScreen.storyboard */; };
 		45EED7471FF67BF0002AE6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EED7461FF67BF0002AE6A4 /* main.m */; };
 		45EED7511FF67BF0002AE6A4 /* VectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EED7501FF67BF0002AE6A4 /* VectorTests.m */; };
 		45EED75C1FF67BF0002AE6A4 /* VectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EED75B1FF67BF0002AE6A4 /* VectorUITests.m */; };
+		45EED76B1FF67C19002AE6A4 /* VectorTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45EED7691FF67C19002AE6A4 /* VectorTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		45EED7371FF67BF0002AE6A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		45EED7381FF67BF0002AE6A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		45EED73A1FF67BF0002AE6A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		45EED73B1FF67BF0002AE6A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45EED73B1FF67BF0002AE6A4 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		45EED73E1FF67BF0002AE6A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45EED7401FF67BF0002AE6A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45EED7431FF67BF0002AE6A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,8 @@
 		45EED7571FF67BF0002AE6A4 /* VectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45EED75B1FF67BF0002AE6A4 /* VectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VectorUITests.m; sourceTree = "<group>"; };
 		45EED75D1FF67BF0002AE6A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45EED7691FF67C19002AE6A4 /* VectorTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VectorTest.cpp; sourceTree = "<group>"; };
+		45EED76A1FF67C19002AE6A4 /* VectorTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VectorTest.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +104,11 @@
 		45EED7361FF67BF0002AE6A4 /* Vector */ = {
 			isa = PBXGroup;
 			children = (
+				45EED76C1FF68362002AE6A4 /* VectorTest */,
 				45EED7371FF67BF0002AE6A4 /* AppDelegate.h */,
 				45EED7381FF67BF0002AE6A4 /* AppDelegate.m */,
 				45EED73A1FF67BF0002AE6A4 /* ViewController.h */,
-				45EED73B1FF67BF0002AE6A4 /* ViewController.m */,
+				45EED73B1FF67BF0002AE6A4 /* ViewController.mm */,
 				45EED73D1FF67BF0002AE6A4 /* Main.storyboard */,
 				45EED7401FF67BF0002AE6A4 /* Assets.xcassets */,
 				45EED7421FF67BF0002AE6A4 /* LaunchScreen.storyboard */,
@@ -130,6 +134,15 @@
 				45EED75D1FF67BF0002AE6A4 /* Info.plist */,
 			);
 			path = VectorUITests;
+			sourceTree = "<group>";
+		};
+		45EED76C1FF68362002AE6A4 /* VectorTest */ = {
+			isa = PBXGroup;
+			children = (
+				45EED7691FF67C19002AE6A4 /* VectorTest.cpp */,
+				45EED76A1FF67C19002AE6A4 /* VectorTest.hpp */,
+			);
+			path = VectorTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45EED73C1FF67BF0002AE6A4 /* ViewController.m in Sources */,
+				45EED73C1FF67BF0002AE6A4 /* ViewController.mm in Sources */,
 				45EED7471FF67BF0002AE6A4 /* main.m in Sources */,
+				45EED76B1FF67C19002AE6A4 /* VectorTest.cpp in Sources */,
 				45EED7391FF67BF0002AE6A4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

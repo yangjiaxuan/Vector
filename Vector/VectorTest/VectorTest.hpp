@@ -12,12 +12,16 @@
 #include <stdio.h>
 
 class Student {
-
-public:
-    int age;
-    char name[64];
     
 public:
+    int age;
+    const char *name;
+    
+public:
+    Student();
+    Student(int age, const char *name);
+    ~Student();
+    
     void description();
 };
 
@@ -31,9 +35,5 @@ public:
     void text_01();
     
 };
-
-
-
-
 
 #endif /* VectorTest_hpp */
